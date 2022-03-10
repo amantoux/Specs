@@ -9,11 +9,10 @@ Pod::Spec.new do |spec|
     and a series of optimization patches from the webrtc-sdk community have been added.
     DESC
   
-    spec.homepage     = "https://github.com/webrtc-sdk/Specs"
+    spec.homepage     = "https://github.com/amantoux/Specs"
     spec.license      = { :type => 'BSD', :file => 'WebRTC.xcframework/LICENSE' }
     spec.author       = "webrtc-sdk"
     spec.ios.deployment_target = '10.0'
-    spec.osx.deployment_target = '10.11'
   
     spec.source       = { :http => "https://github.com/amantoux/Specs/releases/download/97.4692.02/WebRTC.xcframework.zip" }
     spec.vendored_frameworks = "WebRTC.xcframework"
